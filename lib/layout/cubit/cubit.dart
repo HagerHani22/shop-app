@@ -9,10 +9,11 @@ import '../../../shared/network/remote/dio_helper.dart';
 import '../../../models/categories_model.dart';
 import '../../../models/favourites_model.dart';
 import '../../../models/login_model.dart';
-import '../../modules/shop_app/categories/categories_screen.dart';
-import '../../modules/shop_app/favorites/favorites_screen.dart';
-import '../../modules/shop_app/products/products_screen.dart';
-import '../../modules/shop_app/setting/setting_screen.dart';
+import '../../modules/categories/categories_screen.dart';
+import '../../modules/favorites/favorites_screen.dart';
+import '../../modules/products/products_screen.dart';
+import '../../modules/setting/setting_screen.dart';
+
 
 class ShopCubits extends Cubit<ShopStates> {
   ShopCubits() : super(ShopInitialStates());

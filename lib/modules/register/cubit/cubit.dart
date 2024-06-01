@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shop_app/modules/shop_app/register/cubit/states.dart';
+import 'package:shop_app/modules/register/cubit/states.dart';
 
 import '../../../../shared/network/end_point.dart';
 import '../../../../shared/network/remote/dio_helper.dart';

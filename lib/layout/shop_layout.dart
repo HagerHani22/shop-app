@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 
-import '../modules/shop_app/search/search_screen.dart';
+import '../modules/search/search_screen.dart';
 import 'cubit/cubit.dart';
 import 'cubit/states.dart';
 

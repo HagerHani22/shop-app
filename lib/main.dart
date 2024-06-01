@@ -11,10 +11,10 @@ import 'package:shop_app/shared/styles/themes.dart';
 
 import 'layout/cubit/cubit.dart';
 import 'layout/shop_layout.dart';
-import 'modules/shop_app/login/cubit/cubit.dart';
-import 'modules/shop_app/login/shop_login.dart';
-import 'modules/shop_app/on_boarding/on_boarding_screen.dart';
-import 'modules/shop_app/register/cubit/cubit.dart';
+import 'modules/login/cubit/cubit.dart';
+import 'modules/login/shop_login.dart';
+import 'modules/on_boarding/on_boarding_screen.dart';
+import 'modules/register/cubit/cubit.dart';
 
 
 Future<void> main() async {

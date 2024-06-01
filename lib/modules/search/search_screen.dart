@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hexcolor/hexcolor.dart';
-import 'package:shop_app/modules/shop_app/search/cubit/states.dart';
 
 
 import '../../../layout/cubit/cubit.dart';
 import '../../../shared/components/components.dart';
 import 'cubit/cubit.dart';
+import 'cubit/states.dart';
 
 class SearchScreen extends StatelessWidget {
   SearchScreen({super.key});
