@@ -3,10 +3,11 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 
+import '../../../layout/cubit/cubit.dart';
+import '../../../layout/cubit/states.dart';
 import '../../../shared/components/components.dart';
-import '../cubit/cubit.dart';
-import '../cubit/states.dart';
-import 'favourites_model.dart';
+
+import '../../../models/favourites_model.dart';
 
 class FavoritesScreen extends StatelessWidget {
   const FavoritesScreen({super.key});

@@ -3,10 +3,11 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 
+import '../../../layout/cubit/cubit.dart';
+import '../../../layout/cubit/states.dart';
 import '../../../shared/components/components.dart';
 import '../../../shared/network/local/cache_helper.dart';
-import '../cubit/cubit.dart';
-import '../cubit/states.dart';
+
 import '../login/shop_login.dart';
 
 var nameController = TextEditingController();

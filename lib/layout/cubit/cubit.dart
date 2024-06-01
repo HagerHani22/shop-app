@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shop_app/modules/shop_app/cubit/states.dart';
+import 'package:shop_app/layout/cubit/states.dart';
 
+import '../../../models/home_model.dart';
 import '../../../shared/components/constants.dart';
 import '../../../shared/network/end_point.dart';
 import '../../../shared/network/remote/dio_helper.dart';
-import '../categories/categories_model.dart';
-import '../categories/categories_screen.dart';
-import '../favorites/favorites_screen.dart';
-import '../favorites/favourites_model.dart';
-import '../layout/home_model.dart';
-import '../login/login_model.dart';
-import '../products/products_screen.dart';
-import '../setting/setting_screen.dart';
+import '../../../models/categories_model.dart';
+import '../../../models/favourites_model.dart';
+import '../../../models/login_model.dart';
+import '../../modules/shop_app/categories/categories_screen.dart';
+import '../../modules/shop_app/favorites/favorites_screen.dart';
+import '../../modules/shop_app/products/products_screen.dart';
+import '../../modules/shop_app/setting/setting_screen.dart';
 
 class ShopCubits extends Cubit<ShopStates> {
   ShopCubits() : super(ShopInitialStates());

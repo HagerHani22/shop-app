@@ -1,12 +1,12 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shop_app/modules/shop_app/search/search_model.dart';
-import 'package:shop_app/modules/shop_app/search/states.dart';
+import 'package:shop_app/models/search_model.dart';
+import 'package:shop_app/modules/shop_app/search/cubit/states.dart';
 
 
-import '../../../shared/components/constants.dart';
-import '../../../shared/network/end_point.dart';
-import '../../../shared/network/remote/dio_helper.dart';
-import '../favorites/favourites_model.dart';
+import '../../../../shared/components/constants.dart';
+import '../../../../shared/network/end_point.dart';
+import '../../../../shared/network/remote/dio_helper.dart';
+import '../../../../models/favourites_model.dart';
 
 class ShopSearchCubits extends Cubit<ShopSearchStates>{
   ShopSearchCubits():super(ShopSearchInitialStates());

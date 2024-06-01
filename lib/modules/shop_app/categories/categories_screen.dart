@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../cubit/cubit.dart';
-import '../cubit/states.dart';
-import 'categories_model.dart';
+
+import '../../../layout/cubit/cubit.dart';
+import '../../../layout/cubit/states.dart';
+import '../../../models/categories_model.dart';
 
 
 class CategoriesScreen extends StatelessWidget {

@@ -4,11 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hexcolor/hexcolor.dart';
 
+import '../../../layout/cubit/cubit.dart';
+import '../../../layout/cubit/states.dart';
+import '../../../models/home_model.dart';
 import '../../../shared/components/components.dart';
-import '../categories/categories_model.dart';
-import '../cubit/cubit.dart';
-import '../cubit/states.dart';
-import '../layout/home_model.dart';
+import '../../../models/categories_model.dart';
+
 
 class ProductsScreen extends StatelessWidget {
   const ProductsScreen({super.key});

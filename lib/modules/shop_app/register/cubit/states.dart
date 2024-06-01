@@ -1,4 +1,4 @@
-import '../login/login_model.dart';
+import '../../../../models/login_model.dart';
 
 abstract class ShopRegisterStates{}
 class ShopRegisterInitialStates extends ShopRegisterStates{}

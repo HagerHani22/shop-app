@@ -1,26 +1,14 @@
-import '../layout/home_model.dart';
-
-class ChangeFavouritesModel{
-  bool ?status;
-  String ?message;
-  ChangeFavouritesModel.fromJson(Map<String, dynamic>json){
-    status=json['status'];
-    message=json['message'];
-  }
-}
-////////////////////////////////////////////////////////////////////////
 
 
+import 'home_model.dart';
 
-
-
-class FavouriteModel {
+class SearchModel {
   bool? status;
   String? message;
   Data? data;
 
 
-  FavouriteModel.fromJson(Map<String, dynamic> json) {
+  SearchModel.fromJson(Map<String, dynamic> json) {
     status = json['status'];
     message = json['message'];
     data = json['data'] != null ?  Data.fromJson(json['data']) : null;
@@ -31,7 +19,7 @@ class FavouriteModel {
 
 class Data {
   int? currentPage;
-  List<FavData>?  data;
+  List<ProductsModel>?  data;
   String? firstPageUrl;
   int? from;
   int? lastPage;
@@ -49,7 +37,7 @@ class Data {
     if (json['data'] != null) {
       data = [];
       json['data'].forEach((v) {
-        data!.add(FavData.fromJson(v));
+        data!.add(ProductsModel.fromjson(v));
       });
     }
     firstPageUrl = json['first_page_url'];
@@ -67,15 +55,9 @@ class Data {
 
 }
 
-class  FavData{
-  int? id;
- ProductsModel?product;
-  FavData.fromJson(Map<String, dynamic>json){
-    id=json['id'];
-    product=json['product'] != null ?ProductsModel.fromjson(json['product']):null;
-  }
 
-}
+
+
 
 
 

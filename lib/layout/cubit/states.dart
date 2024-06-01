@@ -1,6 +1,6 @@
 
-import '../favorites/favourites_model.dart';
-import '../login/login_model.dart';
+import '../../../models/favourites_model.dart';
+import '../../../models/login_model.dart';
 
 abstract class ShopStates{}
 

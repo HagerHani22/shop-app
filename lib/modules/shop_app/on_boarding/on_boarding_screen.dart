@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
-import '../../../models/Images/imageModel.dart';
+import '../../../models/imageModel.dart';
 import '../../../shared/network/local/cache_helper.dart';
 import '../login/shop_login.dart';
 

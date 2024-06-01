@@ -1,5 +1,5 @@
 
-import '../favorites/favourites_model.dart';
+import '../../../../models/favourites_model.dart';
 
 abstract class ShopSearchStates{}
 class ShopSearchInitialStates extends ShopSearchStates{}

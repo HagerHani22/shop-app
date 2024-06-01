@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hexcolor/hexcolor.dart';
-import 'package:shop_app/modules/shop_app/login/states.dart';
+import 'package:shop_app/modules/shop_app/login/cubit/states.dart';
 
 
+import '../../../layout/shop_layout.dart';
 import '../../../shared/components/components.dart';
 import '../../../shared/components/constants.dart';
 import '../../../shared/network/local/cache_helper.dart';
-import '../layout/shop_layout.dart';
 import '../register/register_screen.dart';
-import 'cubit.dart';
+import 'cubit/cubit.dart';
 
 class ShopLoginScreen extends StatelessWidget {
   ShopLoginScreen({super.key});

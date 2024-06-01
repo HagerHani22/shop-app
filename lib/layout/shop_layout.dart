@@ -3,9 +3,11 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 
-import '../cubit/cubit.dart';
-import '../cubit/states.dart';
-import '../search/search_screen.dart';
+import '../modules/shop_app/search/search_screen.dart';
+import 'cubit/cubit.dart';
+import 'cubit/states.dart';
+
+
 
 class ShopLayout extends StatelessWidget {
   const ShopLayout({super.key});

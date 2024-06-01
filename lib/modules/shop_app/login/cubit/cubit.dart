@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shop_app/modules/shop_app/login/states.dart';
+import 'package:shop_app/modules/shop_app/login/cubit/states.dart';
 
-import '../../../shared/network/end_point.dart';
-import '../../../shared/network/remote/dio_helper.dart';
-import 'login_model.dart';
+import '../../../../shared/network/end_point.dart';
+import '../../../../shared/network/remote/dio_helper.dart';
+import '../../../../models/login_model.dart';
 
 LoginModel ?loginModel;
 

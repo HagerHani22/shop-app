@@ -9,12 +9,12 @@ import 'package:shop_app/shared/network/local/cache_helper.dart';
 import 'package:shop_app/shared/network/remote/dio_helper.dart';
 import 'package:shop_app/shared/styles/themes.dart';
 
-import 'modules/shop_app/cubit/cubit.dart';
-import 'modules/shop_app/layout/shop_layout.dart';
-import 'modules/shop_app/login/cubit.dart';
+import 'layout/cubit/cubit.dart';
+import 'layout/shop_layout.dart';
+import 'modules/shop_app/login/cubit/cubit.dart';
 import 'modules/shop_app/login/shop_login.dart';
 import 'modules/shop_app/on_boarding/on_boarding_screen.dart';
-import 'modules/shop_app/register/cubit.dart';
+import 'modules/shop_app/register/cubit/cubit.dart';
 
 
 Future<void> main() async {
